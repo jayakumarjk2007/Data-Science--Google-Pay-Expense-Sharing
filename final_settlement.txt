@@ -1,0 +1,3 @@
+Final Settlement
+Bob pays Alice: Rs. 2600.00
+Carol pays Alice: Rs. 3200.00
