@@ -1,7 +1,0 @@
-description,payer,amount,category,participants
-Accommodation,Alice,9000,Stay,Alice|Bob|Carol
-Day 1 dinner,Bob,1500,Food,Alice|Bob|Carol
-Breakfast and lunch,Carol,1200,Food,Alice|Bob|Carol
-Day 2 lunch,Bob,900,Food,Alice|Bob|Carol
-Day 2 dinner,Alice,1800,Food,Alice|Bob|Carol
-Day 3 breakfast,Carol,600,Food,Alice|Bob|Carol
