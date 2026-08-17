@@ -1,9 +1,0 @@
-expense_id,date,description,payer,amount,category,participants,split_weights,status,notes
-EXP001,2026-08-01,Apartment booking,Alice,9000,Stay,Alice|Bob|Carol,1|1|1,paid,Three-night shared accommodation
-EXP002,2026-08-01,Travel to hotel,Bob,1500,Transport,Alice|Bob|Carol,1|1|1,paid,Airport taxi split equally
-EXP003,2026-08-02,Groceries,Alice,1800,Food,Alice|Bob|Carol,1|2|1,paid,Bob used a double share
-EXP004,2026-08-02,Museum tickets,Carol,1600,Activities,Alice|Bob|Carol,1|1|1,paid,Shared entry tickets
-EXP005,2026-08-03,Dinner,Bob,1200,Food,Alice|Bob|Carol,1|2|1,paid,Bob chose a double share
-EXP006,2026-08-03,Hotel partial refund,Alice,600,Stay,Alice|Bob|Carol,1|1|1,refund,Refund returns to the original payer and reduces each share
-EXP007,2026-08-04,Return taxi,Carol,900,Transport,Alice|Carol,1|1,paid,Bob did not use this taxi
-EXP008,2026-08-04,Unpaid snack booking,,450,Food,Alice|Bob|Carol,1|1|1,unpaid,Kept out of settlement until someone records payment
