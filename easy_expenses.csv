@@ -1,0 +1,7 @@
+id,date,description,payer,amount,category,participants,split_weights,status
+1,01-08-2026,Hotel,Alice,3000,Stay,Alice|Bob|Carol,1|1|1,paid
+2,02-08-2026,Lunch,Bob,900,Food,Alice|Bob|Carol,1|1|1,paid
+3,03-08-2026,Taxi,Carol,600,Travel,Alice|Bob|Carol,1|1|1,paid
+4,04-08-2026,Dinner,Alice,1200,Food,Alice|Bob|Carol,1|1|1,paid
+5,05-08-2026,Hotel Refund,Alice,300,Stay,Alice|Bob|Carol,1|1|1,refund
+6,06-08-2026,Snacks,,300,Food,Alice|Bob|Carol,1|1|1,unpaid
