@@ -51,12 +51,13 @@ From the sample data:
 - Interactive input mode for custom expenses
 - Two test scenarios (3 friends and 4 friends)
 
-## 8. Tools Used
-- **Python** — Core programming language
-- **OOP** — Class-based design with constructor, methods, and encapsulation
-- **Pandas** — Data handling
-- **NumPy** — Numerical support
-- **Matplotlib** — Visualisation
+## 8. Tools & Dependencies
+- **Python Standard Library (Core System)** — The entire expense sharing logic in `expense_sharing.py` requires **zero external libraries**. It is built strictly with Python built-ins (`dict`, `list`, standard I/O) for maximum portability and zero-setup deployment.
+- **OOP (Object-Oriented Programming)** — Class-based architecture using constructor (`__init__`), encapsulation, and reusable methods (`add_expense`, `calculate_settlement`).
+- **Optional Data Science Tools (Jupyter Notebook)** — The exploratory notebook (`GooglePay_Expense_Sharing.ipynb`) uses:
+  - **Pandas** — for reading data tables and category summaries
+  - **NumPy** — for numerical operations
+  - **Matplotlib** — for spending charts and graphical visualization
 
 ## 9. Conclusion
 The project demonstrates a real-world use of Python OOP for managing shared expenses. It can be extended with a database, web interface, or payment integration.
