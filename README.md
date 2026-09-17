@@ -5,12 +5,11 @@ This project helps friends manage shared expenses and calculate who owes whom.
 It uses a simple `ExpenseSharing` class built with Object-Oriented Programming (OOP) in Python.
 
 ## Files
-- `GooglePay_Expense_Sharing.ipynb` — complete Jupyter Notebook
-- `expense_sharing.py` — standalone Python version for deployment
+- `expense_sharing.py` — standalone Python version for deployment (pure Python, zero dependencies)
+- `GooglePay_Expense_Sharing.ipynb` — complete Jupyter Notebook for data analysis & visualization
 - `easy_expenses.csv` — sample data
 - `Project_Report.md` — detailed project report
 - `README.md` — project explanation
-- `requirements.txt` — libraries needed
 
 ## How It Works
 1. Create a list of friends
@@ -39,30 +38,23 @@ Carol owes: Rs.300.00
 - Positive balance → person needs to be reimbursed
 - Negative balance → person owes money
 
-## Dependencies & Libraries
-- **Standalone Script (`expense_sharing.py`)**: 
-  - **Zero external dependencies** — Built strictly using pure Python standard library (`dict`, `list`, standard I/O). Runs immediately without installing any packages.
-- **Jupyter Notebook (`GooglePay_Expense_Sharing.ipynb`)**:
-  - `pandas` — for reading dataset tables (`easy_expenses.csv`) and tabular summaries
-  - `numpy` — for numerical operations
-  - `matplotlib` — for generating data science charts and visual spending breakdowns
+## Dependencies
+- **No external libraries required!**
+- The project script (`expense_sharing.py`) is written in **100% pure standard Python** (using built-in data structures like dictionaries and lists).
+- It runs out-of-the-box on any system with Python 3.x installed without running `pip install`.
+- *(Optional)*: If you want to run the Jupyter Notebook (`GooglePay_Expense_Sharing.ipynb`) to view charts and data frames, `pandas` and `matplotlib` can be used.
 
 ## How to Run
 
-### 1. Standalone Python Script (Zero Setup)
-No installation needed! Just run directly with Python:
+### Run the Project (Zero Setup)
+Simply run the script with Python:
 ```bash
 python expense_sharing.py
 ```
 
-### 2. Jupyter Notebook (Data Science & Visualizations)
-If you want to view the data science analysis, charts, and visualizations:
-1. Install requirements:
-   ```bash
-   pip install -r requirements.txt
-   ```
-2. Launch Jupyter Notebook:
-   ```bash
-   jupyter notebook GooglePay_Expense_Sharing.ipynb
-   ```
-3. Run the cells from top to bottom.
+### (Optional) Run the Jupyter Notebook
+If you want to view the interactive notebook with graphs:
+```bash
+pip install pandas matplotlib jupyter
+jupyter notebook GooglePay_Expense_Sharing.ipynb
+```
