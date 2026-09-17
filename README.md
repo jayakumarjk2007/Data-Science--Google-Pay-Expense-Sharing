@@ -39,20 +39,30 @@ Carol owes: Rs.300.00
 - Positive balance → person needs to be reimbursed
 - Negative balance → person owes money
 
-## Libraries
-- pandas
-- numpy
-- matplotlib
+## Dependencies & Libraries
+- **Standalone Script (`expense_sharing.py`)**: 
+  - **Zero external dependencies** — Built strictly using pure Python standard library (`dict`, `list`, standard I/O). Runs immediately without installing any packages.
+- **Jupyter Notebook (`GooglePay_Expense_Sharing.ipynb`)**:
+  - `pandas` — for reading dataset tables (`easy_expenses.csv`) and tabular summaries
+  - `numpy` — for numerical operations
+  - `matplotlib` — for generating data science charts and visual spending breakdowns
 
 ## How to Run
 
-### Jupyter Notebook
-1. Install Python
-2. Run `pip install pandas numpy matplotlib jupyter`
-3. Open `GooglePay_Expense_Sharing.ipynb`
-4. Run the cells from top to bottom
-
-### Python File
-```
+### 1. Standalone Python Script (Zero Setup)
+No installation needed! Just run directly with Python:
+```bash
 python expense_sharing.py
 ```
+
+### 2. Jupyter Notebook (Data Science & Visualizations)
+If you want to view the data science analysis, charts, and visualizations:
+1. Install requirements:
+   ```bash
+   pip install -r requirements.txt
+   ```
+2. Launch Jupyter Notebook:
+   ```bash
+   jupyter notebook GooglePay_Expense_Sharing.ipynb
+   ```
+3. Run the cells from top to bottom.
